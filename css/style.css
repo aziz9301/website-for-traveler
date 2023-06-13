@@ -1,0 +1,401 @@
+:root {
+	---font-family-heading: "Playfair Display", serif;
+	--font-family-paragraf: "Poppins", sans-serif;
+	--heading-weight: 700;
+	--paragraf-weight: 400;
+	--sub-heading-weight: 400;
+	--sub-heading-color: #b53056;
+	--btn-color: #9c0d38;
+	--btn-color-hover: #c01a4c;
+	--icon-star-color: #9c0d38;
+	--price-font-color: #9c0d38;
+	--heading-header-font-size: 58px;
+	--heading-font-size: 38px;
+	--price-font-size: 35px;
+	--header-top-paragraf-font-size: 22px;
+	--paragraf-font-size: 16px;
+	--sub-heading-font-size: 22px;
+}
+
+body {
+	background-color: #fff;
+	font-family: var(--font-family-paragraf);
+}
+
+/* ALL */
+.sub-heading {
+	font-size: var(--sub-heading-font-size);
+	color: var(--sub-heading-color);
+	font-weight: var(--sub-heading-weight);
+}
+
+.heading {
+	font-family: var(---font-family-heading);
+	font-size: var(--heading-font-size);
+	font-weight: var(--heading-weight);
+}
+
+.i-star {
+	width: 120px;
+	height: 25px;
+}
+
+.btn-book-now {
+	background-color: var(--btn-color);
+	color: #fff;
+}
+
+.btn-book-now:hover {
+	background-color: var(--btn-color-hover);
+	color: #fff;
+}
+
+.btn-cancel {
+	background-color: #9da3b3;
+	color: #fff;
+}
+
+.btn-cancel:hover {
+	background-color: #abb1c2;
+	color: #fff;
+}
+
+.price {
+	font-size: 20px;
+	color: var(--price-font-color);
+}
+
+/* Navbar */
+nav {
+	z-index: 20;
+}
+
+.navbar-brand img {
+	max-height: 50px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	display: inline-block;
+
+	color: #fff;
+	font-weight: var(--paragraf-weight);
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+	font-weight: bold;
+}
+
+.btn-sign-in a {
+	color: #000;
+	text-decoration: none;
+}
+
+.btn-register {
+	background-color: var(--btn-color);
+	color: #fff;
+}
+
+.btn-register:hover {
+	background-color: var(--btn-color-hover);
+	color: #fff;
+}
+
+/* Header */
+header {
+	margin-top: -100px;
+}
+
+header img {
+	background-size: cover;
+}
+
+.carousel-caption {
+	padding-bottom: 15%;
+}
+
+.carousel-caption h1 {
+	font-family: var(---font-family-heading);
+	font-size: var(--heading-font-size);
+	font-weight: var(--heading-weight);
+}
+
+.carousel-caption p {
+	font-size: 16px;
+}
+
+.btn-get-started {
+	background-color: var(--btn-color);
+	color: #fff;
+}
+
+.btn-get-started:hover {
+	background-color: var(--btn-color-hover);
+	color: #fff;
+}
+
+/* Offer */
+.container-bg-offer {
+	background: linear-gradient(to top, #ffffff, #e0e0e0);
+}
+
+.section-offer {
+	padding-top: 58px;
+	padding-bottom: 58px;
+}
+
+.section-offer .text-description {
+	font-size: var(--paragraf-font-size);
+	font-weight: var(--paragraf-weight);
+}
+
+.section-offer .days {
+	font-size: 28px;
+	font-weight: var(--paragraf-weight);
+}
+
+/* Our Service */
+.section-our-service {
+	padding-top: 58px;
+}
+
+.section-card {
+	padding-bottom: 58px;
+}
+
+.text-title,
+.modal-title {
+	font-size: 26px;
+	font-weight: var(--paragraf-weight);
+}
+
+/* Testimonial */
+.section-testimonial-heading {
+	padding-top: 58px;
+}
+
+.section-testimonial-content {
+	padding-bottom: 58px;
+}
+
+.text-name {
+	font-family: var(---font-family-heading);
+	font-size: 22px;
+	color: var(--sub-heading-color);
+}
+
+.testimonial,
+.trip-to {
+	font-size: 18px;
+	font-weight: 300;
+	color: #9da3b3;
+}
+
+.section-testimonial-content .card-testimonial .testimonial-content {
+	min-height: 300px;
+}
+
+/* Gallery */
+.container-bg-gallery {
+	padding-top: 58px;
+	background: linear-gradient(to bottom, #ffffff, #e0e0e0);
+}
+
+.section-gallery-heading {
+	padding-top: 58px;
+}
+
+.section-gallery-content {
+	padding-bottom: 58px;
+}
+
+/* Footer */
+.section-footer h5 {
+	font-weight: var(--paragraf-weight);
+}
+
+.section-footer ul li a,
+.section-footer ul li,
+.text-copyright {
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 300;
+	color: #000;
+}
+
+/* Login */
+.login-container {
+	background: linear-gradient(90deg, #ffffff 60%, #e3e5ee 30%); /* % Color stop nya */
+}
+
+.page-login {
+	height: 100vh;
+	/* relatif terhadap tinggi dari viewport (viewport itu area yang kita lihat ) */
+}
+
+.page-login .btn-login {
+	background-color: var(--btn-color);
+	color: #ffffff;
+}
+
+.page-login .btn-login:hover {
+	background-color: var(--btn-color-hover);
+	color: #ffffff;
+}
+
+.page-login .section-left h2 {
+	font-size: var(--heading-font-size);
+	color: var(--sub-heading-color);
+}
+
+.page-login .section-right a {
+	font-family: var(--font-family-paragraf);
+	font-weight: 300;
+	text-decoration: underline;
+	font-size: 16px;
+	text-align: center;
+	color: #9da3b3;
+}
+
+/* Checkout */
+
+.section-checkout {
+	background: linear-gradient(360deg, #ffffff 75%, #e3e5ee 100%);
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.breadcrumb-item {
+	color: var(--sub-heading-color);
+}
+
+.who-is-going {
+	font-family: var(---font-family-heading);
+	font-size: 28px;
+	color: var(--sub-heading-color);
+}
+
+.trip {
+	color: #9da3b3;
+}
+
+.table th {
+	color: var(--sub-heading-color);
+	font-weight: 300;
+}
+
+.table td {
+	color: var(--sub-heading-color);
+	font-weight: 400;
+}
+
+.add-member {
+	font-family: var(---font-family-heading);
+	font-size: 22px;
+	color: var(--sub-heading-color);
+}
+
+.btn-add {
+	background-color: var(--btn-color);
+	color: #fff;
+}
+
+.note {
+	font-family: var(---font-family-heading);
+	color: var(--sub-heading-color);
+	font-size: 20px;
+}
+
+.disclaimer {
+	font-family: var(--font-family-paragraf);
+	font-weight: var(--paragraf-weight);
+	color: #9da3b3;
+	font-size: 14px;
+}
+
+.btn-add:hover {
+	background-color: var(--btn-color-hover);
+	color: #fff;
+}
+
+.checkout-information {
+	font-family: var(---font-family-heading);
+	font-size: 26px;
+	color: var(--sub-heading-color);
+}
+
+.trip-information th {
+	font-weight: 400;
+	color: var(--sub-heading-color);
+}
+
+.trip-information .text-right {
+	color: #9da3b3;
+}
+
+.text-total .text-red {
+	color: var(--sub-heading-color);
+}
+
+.text-total .text-rose {
+	color: var(--price-font-color);
+}
+
+.pay-instruc {
+	color: var(--sub-heading-color);
+	font-size: 26px;
+	font-family: var(---font-family-heading);
+}
+
+.payment-instruction {
+	color: #9da3b3;
+}
+
+.bank-item h3 {
+	font-size: 22px;
+	color: var(--sub-heading-color);
+	font-weight: 400;
+	font-family: var(---font-family-heading);
+}
+
+.bank-item p {
+	color: var(--sub-heading-color);
+	font-weight: 300;
+	font-size: 14px;
+}
+
+.btn-join-now {
+	background-color: var(--btn-color);
+	color: #fff;
+}
+
+.btn-join-now {
+	background-color: var(--btn-color-hover);
+	color: #fff;
+}
+
+/* Success */
+.section-success {
+	height: 80vh;
+}
+
+.section-success h1 {
+	font-weight: 600;
+	font-size: 26px;
+	color: #071661;
+}
+
+.section-success p {
+	font-weight: 300;
+	font-size: 18px;
+	color: var(--sub-heading-color);
+}
+
+.section-success .btn-home-page {
+	background-color: var(--btn-color);
+	color: #ffffff;
+}
+
+.section-success .btn-home-page:hover {
+	background-color: var(--btn-color-hover);
+	color: #ffffff;
+}

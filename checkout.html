@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="css/bootstrap.css" />
+
+		<!-- Custom Style CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+
+		<!-- Font -->
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap" rel="stylesheet" />
+
+		<!-- Icon -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css" />
+
+		<!-- OwlCarousel -->
+		<link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.css" />
+		<link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css" />
+
+		<title>TravelerFun</title>
+	</head>
+	<body>
+		<!-- NAVBAR START -->
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">
+					<img src="img/logo.png" alt="logo" />
+				</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-0 gap-lg-3">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#offer">Offer</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#service">Service</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#testimonial">Testimonial</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#gallery">Gallery</a>
+						</li>
+					</ul>
+					<!-- Mobile Button -->
+					<form class="form-inline d-sm-block d-md-none mb-2">
+						<button class="btn btn-sign-in"><a href="login.html">Sign In</a></button>
+						<button class="btn btn-register">Register</button>
+					</form>
+					<!-- Desktop Button -->
+					<form class="form-inline d-none d-md-block">
+						<button class="btn btn-sign-in"><a href="login.html">Sign In</a></button>
+						<button class="btn btn-register">Register</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+		<!-- NAVBAR END -->
+
+		<!-- MAIN START -->
+
+		<main>
+			<div class="section-checkout">
+				<div class="container">
+					<div class="breadcrumb-group">
+						<nav>
+							<ol class="breadcrumb">
+								<li class="breadcrumb-item">Home</li>
+								<li class="breadcrumb-item active">Checkout</li>
+							</ol>
+						</nav>
+					</div>
+					<div class="row">
+						<!-- Left -->
+						<div class="col-12 col-lg-8">
+							<div class="card p-3">
+								<h3 class="who-is-going">Who's going?</h3>
+								<p class="trip">Trip to Kyoto, Japan</p>
+								<div class="table-responsive-sm">
+									<table class="table text-center">
+										<thead>
+											<tr>
+												<th>Picture</th>
+												<th>Name</th>
+												<th>Nationality</th>
+												<th>Passport</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td class="align-middle"><img src="img/testi1.jpg" alt="member" height="60" /></td>
+												<td class="align-middle">Farhan</td>
+												<td class="align-middle">ID</td>
+												<td class="align-middle">N/A</td>
+											</tr>
+											<tr>
+												<td class="align-middle"><img src="img/testi2.jpg" alt="member" height="60" /></td>
+												<td class="align-middle">Farhan</td>
+												<td class="align-middle">ID</td>
+												<td class="align-middle">N/A</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								<div class="member mt-5 mt-lg-0">
+									<h2 class="add-member">Add Member</h2>
+									<form>
+										<div class="row">
+											<div class="col">
+												<input type="text" class="form-control" placeholder="Name" aria-label="Name" />
+											</div>
+											<div class="col">
+												<select class="form-select">
+													<option selected>Visa</option>
+													<option>30 Days</option>
+													<option>N/A</option>
+												</select>
+											</div>
+											<div class="col">
+												<button class="btn btn-add">Add Now</button>
+											</div>
+										</div>
+									</form>
+									<h5 class="mt-2 mb-0 note">Note</h5>
+									<p class="disclaimer mb-0">You are only able to invite member that has registered in TravelerFun.</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- Right -->
+						<div class="col-12 col-lg-4">
+							<div class="card card-details card-right mt-4 mt-lg-0 p-3">
+								<h2 class="checkout-information">Checkout Informations</h2>
+								<table class="trip-information">
+									<tr>
+										<th width="50%">Members</th>
+										<td width="50%" class="text-right">2 Person</td>
+									</tr>
+									<tr>
+										<th width="50%">Additional VISA</th>
+										<td width="50%" class="text-right">$ 190,00</td>
+									</tr>
+									<tr>
+										<th width="50%">Trip Price</th>
+										<td width="50%" class="text-right">$ 2800,00 / Person</td>
+									</tr>
+									<tr>
+										<th width="50%">Sub Total</th>
+										<td width="50%" class="text-right">$ 2990,00</td>
+									</tr>
+									<tr>
+										<th width="50%">Total (+Unique)</th>
+										<td width="50%" class="text-right text-total">
+											<span class="text-red">$ 2990,</span>
+											<span class="text-rose">33</span>
+										</td>
+									</tr>
+								</table>
+								<hr />
+								<h2 class="pay-instruc">Payment Instructions</h2>
+								<p class="payment-instruction">Please complete your payment before to continue the wonderful trip</p>
+								<div class="bank mt-2">
+									<div class="bank-item pb-3">
+										<img src="img/ic_bank@2x.png" alt="bank" width="50" class="bank-image" />
+										<div class="description mt-2">
+											<h3>PT TravelerFun ID</h3>
+											<p>
+												0424 3509 1244
+												<br />
+												Bank Central Asia
+											</p>
+										</div>
+									</div>
+									<div class="bank-item pb-3">
+										<img src="img/ic_bank@2x.png" alt="bank" width="50" class="bank-image" />
+										<div class="description mt-2">
+											<h3>PT TravelerFun ID</h3>
+											<p>
+												0084 2213 4421
+												<br />
+												Bank Mandiri
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="text-center">
+								<a href="success.html" class="btn btn-join-now mt-3"> I Have Made Payment </a>
+							</div>
+							<div class="text-center mt-3">
+								<a href="index.html" class="text-muted"> Cancel Booking </a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<!-- MAIN END -->
+
+		<!-- FOOTER START -->
+		<footer class="section-footer py-5 border-top">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-12 col-md-3">
+						<h5>FEATURES</h5>
+						<ul class="list-unstyled">
+							<li><a href="#">Review</a></li>
+							<li><a href="#">Community</a></li>
+							<li><a href="#">Social Media</a></li>
+							<li><a href="#">Affiliate</a></li>
+						</ul>
+					</div>
+					<div class="col-12 col-md-3">
+						<h5>ACCOUNT</h5>
+						<ul class="list-unstyled">
+							<li><a href="#">Refund</a></li>
+							<li><a href="#">Security</a></li>
+							<li><a href="#">Rewards</a></li>
+						</ul>
+					</div>
+					<div class="col-12 col-md-3">
+						<h5>COMPANY</h5>
+						<ul class="list-unstyled">
+							<li><a href="#">Carrer</a></li>
+							<li><a href="#">Help Center</a></li>
+							<li><a href="#">Media</a></li>
+						</ul>
+					</div>
+					<div class="col-12 col-md-3">
+						<h5>Get Connected</h5>
+						<ul class="list-unstyled">
+							<li>Jakarta</li>
+							<li>Indonesia</li>
+							<li>021 - 7659831</li>
+							<li>support@travelerfun.com</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- FOOTER END -->
+
+		<!-- ================================================= -->
+
+		<!-- COPYRIGHT -->
+		<section class="copyright border-top">
+			<div class="container">
+				<div class="row justify-content-md-around my-3">
+					<div class="col-12 text-copyright text-center">2021 Copyright TravelerFun • All rights reserved • Made in Jakarta</div>
+				</div>
+			</div>
+		</section>
+		<!-- AKHIR COPYRIGHT -->
+
+		<script src="js/bootstrap.js"></script>
+	</body>
+</html>
